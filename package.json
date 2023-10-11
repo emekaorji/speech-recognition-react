@@ -31,15 +31,12 @@
     "node": ">=12.0"
   },
   "keywords": [
-    "boilerplate",
-    "template",
-    "typescript",
-    "vscode",
-    "jest",
-    "husky",
-    "commitizen",
-    "semantic-release",
-    "codecov"
+    "speech",
+    "recognition",
+    "ai",
+    "synthesis",
+    "speech recognition",
+    "speech synthesis"
   ],
   "bugs": {
     "url": "https://github.com/emekaorji/speech-recognition-react/issues"
@@ -48,8 +45,10 @@
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
+    "@types/dom-speech-recognition": "^0.0.2",
     "@types/jest": "^27.5.2",
     "@types/node": "^12.20.11",
+    "@types/react": "^18.2.23",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
@@ -120,8 +119,6 @@
     ]
   },
   "dependencies": {
-    "@types/dom-speech-recognition": "^0.0.2",
-    "@types/react": "^18.2.23",
     "react": "^18.2.0"
   }
 }
